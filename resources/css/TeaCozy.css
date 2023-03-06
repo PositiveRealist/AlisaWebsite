@@ -1,4 +1,4 @@
-.body{
+body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
@@ -7,9 +7,3 @@
     text-align: center;
 }
 
-.title{
-    font-family: cursive;
-    color: seashell;
-    background-color: black;
-    font-size: 50px; 
-}
