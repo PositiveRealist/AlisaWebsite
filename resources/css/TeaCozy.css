@@ -10,5 +10,32 @@ body {
 .logo {
     float: left;
     margin-left: 0px 0px 10px 0px;
+
     height: 50px;
+}
+
+.menu {
+    word-spacing: normal;
+    float: right;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-decoration: underline;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.toppic {
+    border-bottom: 1px;
+    border-bottom-color: seashell;
+    border-bottom: solid;
+    height: 700px;
+    margin-top: 69px;
+}
+
+.mission{
+    
 }
