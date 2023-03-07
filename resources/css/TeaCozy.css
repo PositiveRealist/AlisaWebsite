@@ -1,41 +1,57 @@
-body {
-    font-family: Helvetica;
+/*Browser Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Global Styles */
+html{
+    font-family: "Benne", "Helvetica", Arial, Helvetica, sans-serif;
     font-size: 22px;
-    color: seashell;
+    line-height: normal;
+}
+
+body{
     background-color: black;
+    color: seashell;
     opacity: 0.9;
     text-align: center;
 }
 
-.logo {
-    float: left;
-    margin-left: 0px 0px 10px 0px;
-
-    height: 50px;
-}
-
-.menu {
-    word-spacing: normal;
-    float: right;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
+.cozy{
+    height: 69px;
+    width: 1200px;
+    z-index: 2;
+    position:fixed;
     background-color: black;
-    opacity: 0.9;
-    text-decoration: underline;
-    margin: auto;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    
 }
 
-.toppic {
-    border-bottom: 1px;
-    border-bottom-color: seashell;
-    border-bottom: solid;
-    height: 700px;
-    margin-top: 69px;
+.logo {
+    display: inline-flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 10px;
 }
 
-.mission{
-    
-}
+.navigation li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 25px;
+  
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #ffc200; 
+  }
+  
+  .navigation a:hover{
+    opacity:0.5;
+  }
+
+
+
